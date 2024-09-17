@@ -9,7 +9,7 @@ const saveEmployee = async (employeeData, imagePath) => {
         });
     
        
-        employeeData.image = result.secure_url;
+        employeeData.f_Image = result.secure_url;
     
         
         const newEmployee = new Employee(employeeData);
