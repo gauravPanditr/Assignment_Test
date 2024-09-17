@@ -39,7 +39,7 @@ const employeeSchema = new Schema({
         type: String,
         required: true
     },
-    f_Createdate: {
+    f_CreateDate: {
         type: Date,
         default: Date.now 
     }
